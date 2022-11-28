@@ -18,3 +18,5 @@
 # Run
 
 `npm start`
+
+![Screen Shot 2022-11-27 at 11 36 04 PM](https://user-images.githubusercontent.com/113324446/204194958-3f61b2f9-21ce-42a3-9cd3-37e49142f581.png)
