@@ -1,0 +1,34 @@
+<%- include('partials/header') -%>
+
+<main class="container">
+
+    <div class="mt-5">
+        <h2>Order A Drink</h2>
+        <form action="/post/createPost" enctype="multipart/form-data" method="POST">
+          <div class="mb-3">
+              <label for="title" class="form-label">Choose a drink</label>
+              <input list="drink" class="form-control" id="title" name="title">
+              <datalist  id="drink">
+                <option value=" Hot Chocolate">
+                <option value=" Espresso">
+                <option value=" Latte">
+                <option value=" Water">
+              </datalist>
+          </div>
+          <div class="mb-3">
+            <label for="caption" class="form-label">Size</label>
+            <input class="form-control" id="caption" name="caption"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" value="Upload">Submit</button>
+        </form>
+      </div>
+    
+    <div class="row justify-content-around mt-5">
+        <a href="/login" class="col-3 btn btn-primary"> Login</a>
+        <a href="/signup" class="col-3 btn btn-primary"> Signup</a>
+    </div>
+</main>
+
+    
+
+<%- include('partials/footer') -%>
